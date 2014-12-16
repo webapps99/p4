@@ -11,7 +11,7 @@ return array(
 
         'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => '127.0.0.1',
+            'host'      => 'localhost',
             'database'  => 'pets',
             'username'  => 'root',
             'password'  => '8m1DPNAt7W',
