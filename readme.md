@@ -16,7 +16,7 @@ Completed demo during section on Tuesday, December 16, 2014 @ 7:30pm EST.
 
 ----
 ## Details for Teaching Team
-Use admin@yahoo.com login to access all menus, including adding new services. Create a new user with the sign up option. Once the user is created, login and request services. These requests can then be edited in order to update or delete.
+Use admin@yahoo.com/123456 login to access all menus, including adding new services. Create a new user with the sign up option. Once the user is created, login and request services. These requests can then be edited in order to update or delete.
 
 ----
 ## Outside Code
