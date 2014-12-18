@@ -78,9 +78,10 @@
 
 		@else
 
-			<p style="text-align: center"><a href='/signup'>Sign up</a> or <a href='/login'>Log in</a> to <b>request a service on-line!</b></p>
+            <div class="textcenter">
+			<a href='/signup'>Sign up</a> or <a href='/login'>Log in</a> to <b>request a service on-line!</b>
 			<br><br>
-
+            </div>
 		@endif
 		</ul>
 	</nav>

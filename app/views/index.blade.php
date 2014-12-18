@@ -15,14 +15,15 @@
 
 @section('content')
 
-<table width="100%" align="right" border="0">
+<table class="logo1">
         <tbody>
 
             <tr>
 
-            <td align="left" > <a href='/'><img class='logo' src='/images/catsdogs.png' alt='ABC Pet Services Logo'></a></td>
+            <td> <a href='/'><img class='logo' src='/images/catsdogs.png' alt='ABC Pet Services Logo'></a></td>
 
-            <td align="center" >
+
+            <td>
 
                   <P><b>ABC Pet Services</b> is dedicated to the love of pets! We have team members that provide superior
                   <P><b>in-home pet care, exercise services and grooming</b>.  Why bring your pet to another facility
@@ -33,7 +34,8 @@
 
             </td>
 
-            <td align="right" > <a href='/'><img class='logo' src='/images/catsdogs2.jpg' alt='ABC Pet Services Logo'></a></td>
+
+            <td> <a href='/'><img class='logo' src='/images/catsdogs2.jpg' alt='ABC Pet Services Logo'></a></td>
 
             </tr>
 
