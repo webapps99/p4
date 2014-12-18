@@ -41,7 +41,7 @@
 
 <!-- Sign Up or Login -->
 <nav>
-		<ul>
+
 		@if(Auth::check())  <!-- USE THIS SECTION TO DISPLAY CONTENT AFTER SIGN IN -->
 			<ul style="text-align: center"><li><a href='/logout'>Log out {{ Auth::user()->email; }}</a></li></ul>
 
@@ -83,7 +83,7 @@
 			<br><br>
             </div>
 		@endif
-		</ul>
+
 	</nav>
 
 @yield('content')
