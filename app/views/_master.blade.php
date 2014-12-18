@@ -6,7 +6,10 @@
 	<meta charset='utf-8'>
 
 	<link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet">
-	<link rel='stylesheet' href='/public/services.css' type='text/css'>
+	{{ HTML::style('/css/stylesheet.css') }}
+
+	<link rel='stylesheet' type='text/css' href='/public/services.css' >
+
 
 	@yield('head')
 
@@ -74,8 +77,10 @@
 
 
 		@else
-			<ul style="text-align: center"><li><a href='/signup'>Sign up</a> or <a href='/login'>Log in</a> to <b>request a service on-line!</b></li></ul>
+
+			<p style="text-align: center"><a href='/signup'>Sign up</a> or <a href='/login'>Log in</a> to <b>request a service on-line!</b></p>
 			<br><br>
+
 		@endif
 		</ul>
 	</nav>
@@ -88,25 +93,26 @@
 
 
 <!-- Telephone, email and Towns Served -->
-    <table width="100%" align="center" border="0">
+
+    <table class = logo1>
         <tbody>
 
-           <tr> <td align="center" valign="middle"> <br><br><a href='/'><img class='logo' src='/images/cover1.png' alt='ABC Pet Services Logo'></a></td></tr>
+
+           <tr> <td> <br><br><a href='/'><img class='logo' src='/images/cover1.png' alt='ABC Pet Services Logo'></a></td></tr>
 
             <tr>
 
-                <td align="center" valign="middle" style="width: 20%;"><font style="font-size: 13px;"><strong>Email us at:<br />
-                <a href="mailto:colbyservices@aol.com"><font color="#0000ff">abcpetservices@yahoo.com</font></a></strong>
-                 </font> </td>
+                <td><strong>Email us at:<br />
+                <a href="mailto:colbyservices@aol.com">abcpetservices@yahoo.com</a></strong>
+                  </td>
 
             </tr>
             <tr>
-                <td align="center" colspan="3"><font style="font-size: 14px;"><em>Serving: Canton, Dedham, Foxboro, Norfolk, Sharon, Stoughton, Walpole</em><br />
-                 </font> </td>
+                <td><em>Serving: Canton, Dedham, Foxboro, Norfolk, Sharon, Stoughton, Walpole</em><br />
+                  </td>
             </tr>
         </tbody>
     </table>
-
 
 
 

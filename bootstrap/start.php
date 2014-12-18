@@ -23,7 +23,7 @@ $app = new Illuminate\Foundation\Application;
 | given environment, then we will automatically detect it for you.
 $env = $app->detectEnvironment(array(
 'local' => array('*'),
-});
+));
 */
 
 $env = $app->detectEnvironment(function() {
@@ -39,6 +39,7 @@ $env = $app->detectEnvironment(function() {
     }
 
 });
+
 
 
 
