@@ -43,7 +43,9 @@
 <nav>
 
 		@if(Auth::check())  <!-- USE THIS SECTION TO DISPLAY CONTENT AFTER SIGN IN -->
-			<ul style="text-align: center"><li><a href='/logout'>Log out {{ Auth::user()->email; }}</a></li></ul>
+			<div class="textcenter">
+			<li><a href='/logout'>Log out {{ Auth::user()->email; }}</a></li>
+			</div>
 
 			<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                       <div class="container">
