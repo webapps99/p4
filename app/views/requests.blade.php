@@ -22,13 +22,13 @@
 			 <table  class="logo1">
                     <tr>
                            <TH id="t0" width="60"></TH>
-                           <TH id="t1" width="140">Email</TH>
-                           <TH id="t2" width="120">Phone</TH>
-                           <TH id="t3" width="150">Breed</TH>
-                           <TH id="t4" width="50">Age</TH>
-                           <TH id="t5" width="120">Svc Date</TH>
-                           <TH id="t6" width="100"># Dogs</TH>
-                           <TH id="t7" width="250">Service Desc</TH>
+                           <TH id="t1" width="140" style="text-align:center">Email</TH>
+                           <TH id="t2" width="120" style="text-align:center">Phone</TH>
+                           <TH id="t3" width="150" style="text-align:center">Breed</TH>
+                           <TH id="t4" width="50" style="text-align:center">Age</TH>
+                           <TH id="t5" width="120" style="text-align:center">Svc Date</TH>
+                           <TH id="t6" width="100" style="text-align:center"># Dogs</TH>
+                           <TH id="t7" width="250" style="text-align:center">Service Desc</TH>
 
                     </tr>
 
