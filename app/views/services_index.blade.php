@@ -15,13 +15,13 @@
 <br>
 
 
-            <table class="services">
+            <table class="logo1">
 
                     <tr>
 
-                       <TH id="t1" style="width:200px">Service Type</TH>
-                       <TH id="t2" style="width:250px">Service Description</TH>
-                       <TH id="t3" style="width:100px">Cost</TH>
+                       <TH id="t1" style="text-align:center">Service Type</TH>
+                       <TH id="t2" style="text-align:center">Service Description</TH>
+                       <TH id="t3" style="text-align:center">Cost</TH>
 
                     </tr>
 
