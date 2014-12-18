@@ -14,11 +14,10 @@
     @endforeach
 </ul>
 
-<style>
-h1 {text-align:center;}
-</style>
 
+<div class="textcenter">
 <h1>Request a Service</h1>
+</div>
 
 <title>jQuery UI Datepicker - Default functionality</title>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
@@ -34,7 +33,7 @@ $( "#datepicker" ).datepicker({dateFormat: 'yy-mm-dd'});
 
 {{ Form::open(array('url' => '/requests_add')) }}
 
-<table align="center">
+<table class = logo1>
     <tr>
         <td width="20" align="left">
        {{ Form::label('email','Email:') }}
@@ -113,7 +112,7 @@ $( "#datepicker" ).datepicker({dateFormat: 'yy-mm-dd'});
 
 <br>
 
-<table align="center">
+<table class = logo1>
 <tr>
    <td width="25" align="left">
       {{ Form::label('service_desc', 'Service:') }}
@@ -133,7 +132,7 @@ $( "#datepicker" ).datepicker({dateFormat: 'yy-mm-dd'});
 
 <br>
 
-<table align="center">
+<table class = logo1>
 <tr>
     <td>
     {{ Form::submit('Request'); }}

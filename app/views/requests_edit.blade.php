@@ -16,14 +16,10 @@ Edit Request
     @endforeach
 </ul>
 
-<style>
-h1 {text-align:center;}
-</style>
-
-
-
-
+<div class="textcenter">
 <h1>Edit or Delete</h1>
+</div>
+
 <br>
 
 
@@ -33,7 +29,7 @@ h1 {text-align:center;}
 {{ Form::hidden('id',$request['id']); }} {{---- Get Request ID -----}}
 
 
-<table align="center">
+<table class="logo1">
     <tr>
         <td width="20" align="left">
        {{ Form::label('email','Email:') }}
@@ -112,7 +108,7 @@ h1 {text-align:center;}
 
 <br>
 
-<table align="center">
+<table class="logo1">
 <tr>
    <td width="25" align="left">
       {{ Form::label('service_desc', 'Service:') }}
@@ -132,7 +128,7 @@ h1 {text-align:center;}
 
 <br>
 
-<table align="center">
+<table class="logo1">
 <tr>
 <td>
 <p style="text-align: center;">

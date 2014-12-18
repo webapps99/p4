@@ -6,13 +6,13 @@
 
 @section('content')
 
-<style>
-h1 {text-align:center;}
-</style>
+<div class="textcenter">
+<h1>Log in</h1>
+</div>
 
-<h1>Log in</h1><br><br>
+<br><br>
 
-<div align="center">
+<div class="logo1">
 {{ Form::open(array('url' => '/login')) }}
 
     {{ Form::label('email') }}

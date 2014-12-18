@@ -6,12 +6,11 @@
 
 @section('content')
 
-<style>
-h1 {text-align:center;}
-</style>
+<div class="textcenter">
+<h1>Service Requests</h1>
+</div>
 
 
-	<h1>Service Requests</h1>
 <br>
 	@if(sizeof($requests) == 0)
 		<ul style="text-align: center">No current Service Requests</ul>
@@ -20,7 +19,7 @@ h1 {text-align:center;}
 
 
 
-			 <table  align="center">
+			 <table  class="logo1">
                     <tr>
                            <TH id="t0" width="60"></TH>
                            <TH id="t1" width="140">Email</TH>

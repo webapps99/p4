@@ -9,16 +9,13 @@
 	<div class='error'>{{ $message }}</div>
 @endforeach
 
-<style>
-h1 {text-align:center;}
-</style>
-
+<div class="textcenter">
 <h1>Sign up</h1><br><br>
+</div>
 
 
 
-
-<div align="center">
+<div class="logo1">
 {{ Form::open(array('url' => '/signup')) }}
 
     {{ Form::label('email') }}

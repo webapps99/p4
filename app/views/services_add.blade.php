@@ -6,16 +6,13 @@ Add a Service
 
 @section('content')
 
-<style>
-h1 {text-align:center;}
-</style>
-
+<div class="textcenter">
 <h1>Add a Service</h1>
-
+</div>
 
 {{ Form::open(array('url' => '/services_add')) }}
 
-<table align="center">
+<table class = logo1>
     <tr>
         <td width="20" align="left">
        {{ Form::label('service_type','Svc Type:') }}
@@ -56,7 +53,7 @@ h1 {text-align:center;}
     </tr>
 
 
-<table align="center">
+<table class = logo1>
 <tr>
     <td>
     {{ Form::submit('Submit'); }}
